@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maa Ji</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favico.ico">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+
+    <script type="module" crossorigin src="assets/js/index.js"></script>
+    <link rel="modulepreload" href="assets/js/vendor.js">
+    <link rel="stylesheet" href="assets/css/swipe.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg-[#0B1215]">
+
+    <div class="preloader w-full h-[100vh] bg-black fixed z-[999] flex justify-center items-center">
+        <div class="spinner"></div>
+    </div>
+
+    <nav class="bg-transparentborder-gray-200 dark:bg-gray-900">
+        <div class="container flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse w-[207px]">
+                <img src="assets/images/logo-maaji.png" class="w-full" alt="Flowbite Logo" />
+            </a>
+            <div class="flex lg:hidden md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <button data-collapse-toggle="navbar-cta" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-cta" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                <ul
+                    class="md:flex block flex-col items-center font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:bg-transparent bg-white md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700">
+                    <li>
+                        <a href="#home"
+                            class="block py-2 px-3 md:p-0 md:text-[#FAF9F6]/[0.5] text-black rounded text-[18px] font-light"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#product"
+                            class="block py-2 px-3 md:p-0 md:text-[#FAF9F6]/[0.5] text-black rounded text-[18px] font-light">Product</a>
+                    </li>
+                    <li>
+                        <a href="#vision"
+                            class="block py-2 px-3 md:p-0 md:text-[#FAF9F6]/[0.5] text-black rounded text-[18px] font-light">Our
+                            Vision</a>
+                    </li>
+                    <li>
+                        <a href="#aboutus"
+                            class="block py-2 px-3 md:p-0 md:text-[#FAF9F6]/[0.5] text-black rounded text-[18px] font-light">About
+                            us</a>
+                    </li>
+                    <li>
+                        <button type="button"
+                            class="w-full text-white bg-[#8C52FF] hover:bg-[#8C52FF]/[0.75] rounded-[12px] font-light text-[18px] px-4 py-2 text-center">Support
+                            us</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="home">
+        <div
+            class="container flex md:flex-nowrap flex-wrap gap-[20px] items-center md:justify-between justify-center mx-auto p-4">
+            <div class="md:basis-6/12 basis-full" data-aos="fade-up">
+                <img src="assets/images/mockup-1.png" class="w-full" alt="">
+            </div>
+            <div class="md:basis-6/12 basis-full" data-aos="fade-up" data-aos-delay="300">
+                <h1 class="md:text-[46.6px] text-[35px] font-bold md:text-left text-center text-white">Your Hangout
+                    Plan, finalized in
+                    minutes</h1>
+                <p class="text-[21.9px] text-white font-light md:text-left text-center">To everyone that is always
+                    seeking
+                    new experiences with their friends, Maa-Ji streamlines collaborative hangout planning by
+                    incorporating AI technology.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="product" class="my-[50px]">
+        <div class="container mx-auto p-4 mb-[50px]">
+            <h1 class="font-bold md:text-[44.4px] text-[35px] text-center text-white" data-aos="fade-up">Our Application
+            </h1>
+            <p class="text-white font-light text-[15.3] text-center" data-aos="fade-up">We simplify planning your
+                group's <br> hangout to
+                just 3steps.</p>
+        </div>
+
+        <div
+            class="container relative flex md:flex-nowrap flex-wrap gap-[50px] items-center md:justify-between justify-center mx-auto p-4 md:px-[50px]">
+            <img src="assets/images/bg.png"
+                class="w-full md:block hidden absolute z-[1] mt-[50px] left-[50%] -translate-x-[50%]" alt="">
+            <div class="md:basis-4/12 basis-full relative z-[9]" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="text-center text-white font-bold text-[25.9px]">Save!</h3>
+                <p class="text-center text-white font-light text-[11.7px]">Like what you see?<br>Save them all for your
+                    group!</p>
+                <img src="assets/images/phone-1.png" class="w-full mt-[25px]" alt="">
+            </div>
+            <div class="md:basis-4/12 basis-full relative z-[9]" data-aos="fade-up" data-aos-delay="500">
+                <h3 class="text-center text-white font-bold text-[25.9px]">Sort!</h3>
+                <p class="text-center text-white font-light text-[11.7px]">Sort out your available dates,<br>preferences
+                    and more</p>
+                <img src="assets/images/phone-2.png" class="w-full mt-[25px]" alt="">
+            </div>
+            <div class="md:basis-4/12 basis-full relative z-[9]" data-aos="fade-up" data-aos-delay="700">
+                <h3 class="text-center text-white font-bold text-[25.9px]">Swipe!</h3>
+                <p class="text-center text-white font-light text-[11.7px]">Don't worry about the rest.<br>Swipe! swipe!
+                    Swipe!</p>
+                <img src="assets/images/phone-3.png" class="w-full mt-[25px]" alt="">
+            </div>
+        </div>
+
+        <!-- Carousel slider -->
+        <div class="relative">
+            <div class="swiper mt-[50px]">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <!-- elements with  "swiper-carousel-animate-opacity" class will have animated opacity -->
+                        <div class="swiper-carousel-animate-opacity">
+                            <div class="bg-white w-full min-h-[645px] rounded-[25px] text-center p-[16px]">
+                                <h2 class="text-black font-bold text-[37.4px]">Sort!</h2>
+                                <p class="text-black text-[12px]">Sort out your available dates, group members,
+                                    preferences, and click let's hangout! Our AI will curate the best plan for you and
+                                    your group.</p>
+                                <img src="assets/images/sort-phone.png" class="w-full mt-[45px]" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- elements with  "swiper-carousel-animate-opacity" class will have animated opacity -->
+                        <div class="swiper-carousel-animate-opacity">
+                            <div class="bg-white w-full min-h-[645px] rounded-[25px] text-center p-[16px]">
+                                <h2 class="text-black font-bold text-[37.4px]">Save!</h2>
+                                <p class="text-black text-[12px]">Browse personalized hangouts for you. Save your new
+                                    favorite cafes, restaurants, workshop to your group plan and let us work it out!</p>
+                                <img src="assets/images/save-phone.png" class="w-full mt-[25px]" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- elements with  "swiper-carousel-animate-opacity" class will have animated opacity -->
+                        <div class="swiper-carousel-animate-opacity">
+                            <div class="bg-white w-full min-h-[645px] rounded-[25px] text-center p-[16px]">
+                                <h2 class="text-black font-bold text-[37.4px]">Swipe!</h2>
+                                <p class="text-black text-[12px]">Swipe left and right through your friends' selections.
+                                    Discover deals and exclusive experiences curated for you by our AI.</p>
+                                <img src="assets/images/swipe-phone.png" class="w-full mt-[25px]" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div id="vision" class="mb-[50px]">
+        <div class="container mx-auto p-4 mb-[50px]">
+            <h1 class="font-bold md:text-[44.4px] text-[35px] text-center text-white" data-aos="fade-up">Our Application
+            </h1>
+            <img src="assets/images/hand.png" class="w-[164px] h-[160px] my-[25px] ml-[50%] -translate-x-[50%]" alt="">
+            <p class="text-white font-bold text-[29.4px] text-center" data-aos="fade-up">“Journey of friendship<br>
+                Create new trip<br>
+                Just click Maa-Ji!”</p>
+            <p class="text-white text-[21.9px] text-center my-[25px]" data-aos="fade-up">Maa-Ji is a technology startup
+                aiming to be the
+                new wave in lifestyle<br>applications in the Asia-Pacific Region. </p>
+        </div>
+    </div>
+
+    <div id="aboutus" class="mb-[50px]">
+        <div
+            class="container relative flex lg:flex-nowrap flex-wrap gap-[25px] items-center md:justify-between justify-center mx-auto p-4">
+
+            <div class="lg:basis-8/12 basis-full relative z-[9]">
+                <h3 class="text-left text-white font-bold text-[46.6px]" data-aos="fade-up">About us</h3>
+                <p class="text-left text-white font-light text-[12.8px] w-full max-w-[340px] z-[2] relative"
+                    data-aos="fade-up" data-aos-delay="300">We are
+                    “อู้อี้อิอิ”. A team of passionate innovators whose paths crossed by chance. Although each of us are
+                    from different disciplines, our connection and synergy is like no other.</p>
+                <img src="assets/images/team.png" class="w-full -mt-[150px] z-[1] relative" alt="" data-aos="fade-up"
+                    data-aos-delay="500">
+            </div>
+            <div class="lg:basis-4/12 basis-full relative z-[9]">
+                <div class="flex flex-nowrap w-full items-center mb-[25px]" data-aos="fade-up" data-aos-delay="300">
+                    <img src="assets/images/team-1.png" class="w-full max-w-[160px] h-[160px] z-[9] relative" alt="">
+                    <div
+                        class="bg-white h-[124px] w-full rounded-[31px] -ml-[125px] z-[1] relative pl-[140px] pt-[18px]">
+                        <p class="text-black text-[20.3px] font-bold">Creamy</p>
+                        <p class="text-black text-[14.1px]">Chayada Markmee</p>
+                        <p class="text-black text-[11px] font-light">Faculty of Economics,<br>
+                            Chulalongkorn University</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-nowrap w-full items-center mb-[25px]" data-aos="fade-up" data-aos-delay="500">
+                    <img src="assets/images/team-2.png" class="w-full max-w-[160px] h-[160px] z-[9] relative" alt="">
+                    <div
+                        class="bg-white h-[124px] w-full rounded-[31px] -ml-[125px] z-[1] relative pl-[140px] pt-[18px]">
+                        <p class="text-black text-[20.3px] font-bold">Ernny</p>
+                        <p class="text-black text-[14.1px]">Nutraya Wijitkamnerdkun</p>
+                        <p class="text-black text-[11px] font-light">Faculty of Communication Arts,<br>
+                            Chulalongkorn University</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-nowrap w-full items-center mb-[25px]" data-aos="fade-up" data-aos-delay="700">
+                    <img src="assets/images/team-3.png" class="w-full max-w-[160px] h-[160px] z-[9] relative" alt="">
+                    <div
+                        class="bg-white h-[124px] w-full rounded-[31px] -ml-[125px] z-[1] relative pl-[140px] pt-[18px]">
+                        <p class="text-black text-[20.3px] font-bold">Vivy</p>
+                        <p class="text-black text-[14.1px]">Patthanunn Chanpaiboonrat</p>
+                        <p class="text-black text-[11px] font-light">Faculty of Arts,<br>
+                            Chulalongkorn University</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-nowrap w-full items-center mb-[25px]" data-aos="fade-up" data-aos-delay="900">
+                    <img src="assets/images/team-4.png" class="w-full max-w-[160px] h-[160px] z-[9] relative" alt="">
+                    <div
+                        class="bg-white h-[124px] w-full rounded-[31px] -ml-[125px] z-[1] relative pl-[140px] pt-[18px]">
+                        <p class="text-black text-[20.3px] font-bold">KC</p>
+                        <p class="text-black text-[14.1px]">Kridbhume Chammanard</p>
+                        <p class="text-black text-[11px] font-light">Faculty of Engineering,<br>
+                            Chulalongkorn University</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="support" class="mb-[50px]">
+        <div class="container mx-auto p-4 mb-[50px]">
+            <h1 class="font-bold md:text-[46.6px] text-[35px] text-center text-white" data-aos="fade-up">Support Us!
+            </h1>
+            <p class="text-[21.9px] text-center text-white" data-aos="fade-up">We need your help! To make Maa-Ji a
+                reality, we need your
+                voices to advocate <br> for our final pitch for Chula Tech Startup on the 31st of March. <br>
+                To support our cause, register for our application by clicking the button below!</p>
+
+            <h1 class="font-bold md:text-[36.6px] text-[35px] text-center text-white my-[50px]" data-aos="fade-up">Every
+                single voice
+                matters,<br>Thank you. </h1>
+
+            <a href="#"
+                class="block text-[46.6px] font-bold text-white w-[350px] h-[96px] bg-[#8C52FF] rounded-[12px] flex items-center ml-[50%] !-translate-x-[50%] justify-center"
+                data-aos="fade-up">Register</a>
+        </div>
+    </div>
+
+    <div class="my-[100px] pb-[100px]">
+        <div class="container mx-auto p-4 mb-[50px]">
+            <img src="assets/images/hand.png" class="w-[164px] h-[160px] my-[25px] ml-[50%] !-translate-x-[50%]" alt=""
+                data-aos="fade-up">
+            <p class="text-[41.7px] font-bold text-center text-white" data-aos="fade-up">“Journey of friendship<br>
+                Create new trip<br>
+                Just click Maa-Ji!”</p>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function () {
+            document.querySelector(".preloader").style.display = "none";
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
