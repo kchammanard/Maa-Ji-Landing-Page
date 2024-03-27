@@ -645,3 +645,10 @@ body {
         display: none !important
     }
 }
+
+@media (max-width: 640px) {
+    .product-image {
+        width: 75%; /* Adjust the percentage as needed */
+        margin: 0 auto; /* Center the image */
+    }
+}
